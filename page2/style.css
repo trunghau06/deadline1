@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.item {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f0f0;
+    overflow: hidden; 
+}
+
+.selection {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background: linear-gradient(to bottom, #d5f6f8 0%, #e6f3fb 60%, #c9e2f3 80%, #4dcff7 100%);
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 360px;
+    height: 640px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.title {
+    font-size: 25px;
+    color: black;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.content {
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.login-button, .signup-button {
+    background-color: #E3C000;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 119px;
+    height: 48px;
+    margin: 10px auto; 
+    margin-bottom: 21px;
+}
+.circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin: 67px auto; 
+    display: block;
+    border: 15px solid black;
+    margin-bottom: 66px;
+    margin-top: 69px;
+}
+.answer {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.change-button, .back-button {
+    width: 60px;
+    height: 40px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    z-index: 10;
+}
+
+
+.change-button {
+    bottom: 5px;
+    right: 10px;
+}
+
+
+.back-button {
+    bottom: 5px;
+    left: 10px;
+    background-color: #ccc;
+}
