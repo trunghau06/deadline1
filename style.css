@@ -33,17 +33,18 @@ html, body {
 .container {
     background-color: #00CCF9; 
     font-family: "Be Vietnam Pro", sans-serif;
-    padding: 20px;
+    padding: 0; 
     text-align: center;
-    width: 360px;
-    height: 640px;
     overflow: hidden; 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 100vw; 
+    height: 100vh; 
 }
+
 
 
 .title {
@@ -71,6 +72,8 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 

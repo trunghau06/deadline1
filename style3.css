@@ -33,10 +33,9 @@ html, body {
 .container {
     background: linear-gradient(to bottom, #d5f6f8 0%, #e6f3fb 60%, #c9e2f3 80%, #4dcff7 100%);
     font-family: "Be Vietnam Pro", sans-serif;
-    padding: 20px;
     text-align: center;
-    width: 360px;
-    height: 640px;
+    width: 100vw;  
+    height: 100vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -75,6 +74,8 @@ html, body {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .input-container {
