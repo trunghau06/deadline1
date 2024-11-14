@@ -139,14 +139,13 @@ html, body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10px 10px;
     background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 10px;
     font-weight: bold;
     position: absolute;
-    z-index: 10;
+
 }
 
 
